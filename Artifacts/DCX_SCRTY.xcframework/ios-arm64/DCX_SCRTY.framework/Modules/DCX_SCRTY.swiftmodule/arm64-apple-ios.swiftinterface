@@ -1,0 +1,15 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DCX_SCRTY
+@_exported import DCX_SCRTY
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers open class RootDetection {
+  public static func isDeviceRooted() -> Swift.Bool
+  public static func setScreenProtect(_ window: UIKit.UIWindow?)
+  public static func removeScreenProtect(_ window: UIKit.UIWindow?)
+  @objc deinit
+}

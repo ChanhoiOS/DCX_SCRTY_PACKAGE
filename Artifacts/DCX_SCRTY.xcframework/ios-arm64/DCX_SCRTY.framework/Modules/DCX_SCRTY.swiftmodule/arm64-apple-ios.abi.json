@@ -1,0 +1,143 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DCX_SCRTY",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RootDetection",
+        "printedName": "RootDetection",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isDeviceRooted",
+            "printedName": "isDeviceRooted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DCX_SCRTY13RootDetectionC14isDeviceRootedSbyFZ",
+            "mangledName": "$s9DCX_SCRTY13RootDetectionC14isDeviceRootedSbyFZ",
+            "moduleName": "DCX_SCRTY",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setScreenProtect",
+            "printedName": "setScreenProtect(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DCX_SCRTY13RootDetectionC16setScreenProtectyySo8UIWindowCSgFZ",
+            "mangledName": "$s9DCX_SCRTY13RootDetectionC16setScreenProtectyySo8UIWindowCSgFZ",
+            "moduleName": "DCX_SCRTY",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeScreenProtect",
+            "printedName": "removeScreenProtect(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DCX_SCRTY13RootDetectionC19removeScreenProtectyySo8UIWindowCSgFZ",
+            "mangledName": "$s9DCX_SCRTY13RootDetectionC19removeScreenProtectyySo8UIWindowCSgFZ",
+            "moduleName": "DCX_SCRTY",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9DCX_SCRTY13RootDetectionC",
+        "mangledName": "$s9DCX_SCRTY13RootDetectionC",
+        "moduleName": "DCX_SCRTY",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ichanho\/Desktop\/DCX\/DCX_SCRTY\/DCX_SCRTY\/RootDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 4,
+      "value": "-101"
+    }
+  ]
+}

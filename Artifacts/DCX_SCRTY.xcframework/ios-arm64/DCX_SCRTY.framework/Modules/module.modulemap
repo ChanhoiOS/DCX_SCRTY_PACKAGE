@@ -1,0 +1,6 @@
+framework module DCX_SCRTY {
+  umbrella header "DCX_SCRTY.h"
+  export *
+
+  module * { export * }
+}
