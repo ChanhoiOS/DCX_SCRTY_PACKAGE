@@ -11,5 +11,6 @@ import _SwiftConcurrencyShims
   public static func isDeviceRooted() -> Swift.Bool
   public static func setScreenProtect(_ window: UIKit.UIWindow?)
   public static func removeScreenProtect(_ window: UIKit.UIWindow?)
+  public static func fileIntegrity(_ fileName: Swift.String, _ resourceURL: Foundation.URL) -> Swift.String?
   @objc deinit
 }

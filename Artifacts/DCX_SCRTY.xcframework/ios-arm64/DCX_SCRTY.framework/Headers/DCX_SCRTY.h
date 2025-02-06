@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CommonCrypto/CommonCrypto.h>
 
 //! Project version number for DCX_SCRTY.
 FOUNDATION_EXPORT double DCX_SCRTYVersionNumber;

@@ -116,6 +116,50 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fileIntegrity",
+            "printedName": "fileIntegrity(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DCX_SCRTY13RootDetectionC13fileIntegrityySSSgSS_10Foundation3URLVtFZ",
+            "mangledName": "$s9DCX_SCRTY13RootDetectionC13fileIntegrityySSSgSS_10Foundation3URLVtFZ",
+            "moduleName": "DCX_SCRTY",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -134,8 +178,22 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/ichanho\/Desktop\/DCX\/DCX_SCRTY\/DCX_SCRTY\/RootDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 11,
+      "value": "\"SCRTY_KEY\""
+    },
+    {
+      "filePath": "\/Users\/ichanho\/Desktop\/DCX\/DCX_SCRTY\/DCX_SCRTY\/RootDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 11,
+      "value": "\"dcxmobile\""
+    },
+    {
+      "filePath": "\/Users\/ichanho\/Desktop\/DCX\/DCX_SCRTY\/DCX_SCRTY\/RootDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 272,
+      "offset": 366,
       "length": 4,
       "value": "-101"
     }
